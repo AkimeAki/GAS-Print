@@ -5,11 +5,10 @@ chrome.runtime.onMessage.addListener((request) => {
 		return;
 	}
 
-	const html = document.querySelector("html");
 	const sandboxFrame = document.body.querySelector("iframe#sandboxFrame");
 	if (sandboxFrame !== null) {
 		return;
 	}
 
-	chrome.runtime.sendMessage(html.outerHTML, () => {});
+	window.print();
 });
