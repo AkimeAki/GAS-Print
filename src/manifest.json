@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "GAS Print",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "GAS製のウェブページを正常に印刷できるようにします。",
 	"icons": {
 		"16": "./icons/icon16.png",

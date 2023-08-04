@@ -34,10 +34,6 @@ const changeIcon = async () => {
 	}
 };
 
-chrome.tabs.onActivated.addListener(async () => {
-	await changeIcon();
-});
-
-chrome.runtime.onInstalled.addListener(async () => {
-	await changeIcon();
-});
+chrome.tabs.onActivated.addListener(changeIcon);
+chrome.tabs.onUpdated.addListener(changeIcon);
+chrome.runtime.onInstalled.addListener(changeIcon);
