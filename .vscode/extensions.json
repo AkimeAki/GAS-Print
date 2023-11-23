@@ -2,8 +2,7 @@
 	"recommendations": [
 		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
-		"EditorConfig.EditorConfig",
-		"ms-vscode-remote.remote-containers"
+		"EditorConfig.EditorConfig"
 	],
 	"unwantedRecommendations": []
 }

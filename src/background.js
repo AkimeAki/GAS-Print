@@ -18,17 +18,13 @@ const changeIcon = async () => {
 	if (currentTab.url.indexOf("https://script.google.com/macros/s/") !== -1) {
 		chrome.action.setIcon({
 			path: {
-				16: "./icons/icon16.png",
-				48: "./icons/icon48.png",
-				128: "./icons/icon128.png"
+				128: "./icons/icon.png"
 			}
 		});
 	} else {
 		chrome.action.setIcon({
 			path: {
-				16: "./icons/icon16-gray.png",
-				48: "./icons/icon48-gray.png",
-				128: "./icons/icon128-gray.png"
+				128: "./icons/icon-gray.png"
 			}
 		});
 	}

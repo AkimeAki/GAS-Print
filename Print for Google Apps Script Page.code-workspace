@@ -46,7 +46,13 @@
 		"[css]": {
 			"editor.formatOnSave": true,
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
-		},
-		"cSpell.words": ["dbaeumer", "esbenp"]
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode",
+			"EditorConfig.EditorConfig"
+		]
 	}
 }
