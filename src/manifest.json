@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "Print for Google Apps Script Page",
-	"version": "2.0.4",
+	"name": "Google Apps Script製ページ用印刷",
+	"version": "2.0.5",
 	"description": "Google Apps Script製のウェブページを正常に印刷できるようにします。",
 	"icons": {
 		"128": "./icons/icon.png"
